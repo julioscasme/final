@@ -192,7 +192,7 @@ a:link {
 							        ?>
 							        <img src="<?php echo $fotoPerfil; ?>"  class="img-circle" alt="User Image">
 							    </div>
-								<!---------------------------------------------->
+								<!----------------------ESTOYCONSUEÑOOOOO------------------------>
 
 								<div class="pull-left image">
 							        <form action="subir_foto.php" method=post enctype="multipart/form-data" class="aceptar">
