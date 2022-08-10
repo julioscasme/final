@@ -176,7 +176,7 @@ a:link {
 								<br>
 			          			<h2 style="position: absolute; top: 5; right:150;" align="left"><?php echo $row['nombre'];?><br><?php echo $row['apellido'];?><br></h2>
 								<img src="bot.png" width=115 height=110 style="position: absolute; top: 12; left: 10%;" >
-                                <!-----------------IMAGEN----------------------------->
+                                <!-----------------IMAGENNN----------------------------->
 							
                                 <div class="pull-left image">
 							        <?php
