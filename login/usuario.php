@@ -192,7 +192,7 @@ a:link {
 							        ?>
 							        <img src="<?php echo $fotoPerfil; ?>"  class="img-circle" alt="User Image">
 							    </div>
-								<!----------------------ESTOYCONSUEÑOOOOO------------------------>
+								<!---------------------------------------------->
 
 								<div class="pull-left image">
 							        <form action="subir_foto.php" method=post enctype="multipart/form-data" class="aceptar">
@@ -207,7 +207,7 @@ a:link {
 									</form>
 							    </div>						
 
-                                <!----------------------DURMIENDO-------------------------->
+                                <!------------------------------------------------>
 
 								
 								<br>
@@ -239,7 +239,7 @@ a:link {
 		
             <thead>
                 <td><form class="nueva-planta"><a  href="agregar.php">
-				<img src = "bagregar.png" width ="120" height ="45" style="position: absolute; top: 30.2%; left:2%;">
+				<img src = "img/bagregar.png" width ="120" height ="45" style="position: absolute; top: 30.2%; left:2%;">
 				</a></td>
                 <tr bgcolor="gold">
                     <th  colspan="12">REGISTRO DE PLANTAS</th>
@@ -285,7 +285,7 @@ a:link {
                     <td><?php echo $row['lugar']?></td>
 					
 					
-      				<td>
+      				<td align="center">
 					  <div id="imagenp">
 							        <?php
 							        //var_dump()
@@ -316,15 +316,15 @@ a:link {
 					</td>	
 
 					  <td><form><a  href="editar.php?value=<?php echo $row['idPlanta']?>">
-					  	<img src = "beditar.png" width ="25" height ="25">
+					  	<img src = "img/beditar.png" width ="25" height ="25">
 						</a></form>
 
 					  	<ttr> <form><a  href="lista.usuario.php?value=<?php echo $row['idPlanta']?>">
-						<img src = "bregistro.png" width ="30" height ="30">
+						<img src = "img/bregistro.png" width ="30" height ="30">
 						</a></form></ttr>
 
 					  	<ttr> <form><a  href="eliminar.php?value=<?php echo $row['idPlanta']?>">
-						<img src = "beliminar.png" width ="20" height ="25">
+						<img src = "img/beliminar.png" width ="20" height ="25">
 						</a></form> </tttr>
 
 			

@@ -13,7 +13,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background: url(./bt.jpg);
+        background: url(./img/bt.jpg);
         background-size: 100%;
         height: 90vh;
     }

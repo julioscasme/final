@@ -22,7 +22,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: url(./editar.jpg);
+    background: url(./img/editar.jpg);
     background-size: 50%;
     height: 90vh;
 
