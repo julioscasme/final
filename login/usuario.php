@@ -134,13 +134,10 @@ a:link {
 
 		}
 		
-		@font-face {
-			font-family:floral;
-			src: url(fuente.ttf);
-		}
+		
 
 		#fuente{
-			font-family: floral;
+			font-family: 'Times New Roman', Times, serif;
 			color:  #417C43;
 			font-size: 100px;
 		
