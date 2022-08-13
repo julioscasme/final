@@ -134,8 +134,6 @@ a:link {
 
 		}
 		
-		
-
 		#fuente{
 			font-family: 'Times New Roman', Times, serif;
 			color:  #417C43;
