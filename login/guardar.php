@@ -10,7 +10,7 @@ $tipo=$_POST["tipo"];
 $lugar=$_POST["lugar"];
 
 
-$query = "INSERT INTO planta(ncomun,ncient,genero,familia,clase,tam,tipo,lugar,imagen) VALUES('$ncomun','$ncient','$genero','$familia','$clase',$tam,'$tipo','$lugar','$imagen')";
+$query = "INSERT INTO planta(ncomun,ncient,genero,familia,clase,tam,tipo,lugar) VALUES('$ncomun','$ncient','$genero','$familia','$clase',$tam,'$tipo','$lugar')";
 $resultado=$conexion->query($query);
 
 if($resultado){
